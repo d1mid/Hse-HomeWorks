@@ -1,0 +1,6 @@
+.subscribe__icons {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    gap: 8px;
+}

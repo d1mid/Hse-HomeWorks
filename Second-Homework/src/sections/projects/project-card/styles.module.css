@@ -1,0 +1,4 @@
+.projects__cards-image {
+    transition: transform 0.15s ease-out;
+    width: 430px;
+}

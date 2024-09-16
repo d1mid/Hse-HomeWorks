@@ -1,0 +1,91 @@
+
+.subscribe__image {
+    margin-right: 136px;
+    min-width: 544px;
+    min-height: 548px;
+}
+
+.subscribe__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 678px;
+}
+
+.subscribe__form-title {
+    margin-bottom: 32px;
+}
+
+.subscribe__form-details {
+    margin-bottom: 72px;
+}
+
+
+.subscribe__button {
+    margin-top: 8px;
+}
+
+.subscribe__icons {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.text-default {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #212529;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.button {
+    border: none;
+    padding: 12px 20px;
+    border: none;
+    font-size: 0,9rem;
+    transition: background-color 0.15s ease-out;
+    background-color: #212529;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #DDD7C0;
+    color: #212529;
+}
+
+.button:disabled {
+    background-color: rgba(33, 37, 41, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.button:active {
+    background-color: #CBC6B2;
+    color: #212529;
+}
+
+.input {
+    
+    padding-bottom: 8px; 
+    font-size: 16px;
+    border-color: transparent;
+    background-color: #fff;
+    color: #212529;
+    line-height: 19px;
+    border-radius: 0px;
+    border-bottom: solid 1px #101828;
+    transition: border-bottom-color 0.15s ease-out;
+    width: 562px;
+    height: 31px;
+}
+
+.input:active,
+.input:focus-visible {
+    border-bottom: solid 1px #DDD7C0;
+}
+
+.subscribe__input {
+    margin-bottom: 16px;
+}

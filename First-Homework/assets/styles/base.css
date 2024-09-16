@@ -1,0 +1,115 @@
+html {
+    word-break: normal;
+    font-size: 100%;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #101828;
+    line-height: 21.09px;
+}
+
+body, html {
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #FFFFFF;
+}
+
+h1 {
+font-size: 72px;
+line-height: 86px;
+font-weight: 400;
+color: #101828;
+font-family: 'Helvetica';
+margin: 0;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 66px;
+    font-weight: 400;
+    color: #212529;
+    font-family: 'Helvetica';
+    margin: 0;
+}
+
+a {
+    color: #212529;
+    text-decoration: none;
+    transition:  color 0.15s ease-out;
+}
+
+a:hover {
+    color: #DDD7C0;
+    text-decoration-color: #DDD7C0;
+}
+
+a:focus-visible,
+a.active {
+    color: #CBC6B2;
+    text-decoration-color: #DDD7C0;
+}
+
+.button {
+    border: none;
+    padding: 12px 20px;
+    border: none;
+    font-size: 0,9rem;
+    transition: background-color 0.15s ease-out;
+    background-color: #212529;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #DDD7C0;
+    color: #212529;
+}
+
+.button:disabled {
+    background-color: rgba(33, 37, 41, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.button:active {
+    background-color: #CBC6B2;
+    color: #212529;
+}
+
+.input {
+    
+    padding-bottom: 8px; 
+    font-size: 16px;
+    border-color: transparent;
+    background-color: #fff;
+    color: #212529;
+    line-height: 19px;
+    border-radius: 0px;
+    border-bottom: solid 1px #101828;
+    transition: border-bottom-color 0.15s ease-out;
+    width: 562px;
+    height: 31px;
+}
+
+.input:active,
+.input:focus-visible {
+    border-bottom: solid 1px #DDD7C0;
+}
+
+.subtitle {
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #212529;
+    font-family: 'Helvetica';
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}

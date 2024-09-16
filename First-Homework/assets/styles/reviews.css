@@ -1,0 +1,38 @@
+
+.reviews__main {
+    display: flex;
+    column-gap: 20px;
+}
+
+.reviews__main-card {
+    display: flex;
+    width: 430px;
+    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.reviews__title {
+    margin-bottom: 32px;
+}
+
+.reviews-text-subtitle {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #212529;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.reviews__main-card-link {
+    margin-bottom: 32px;
+}
+
+.text-align {
+    text-align: center;
+}

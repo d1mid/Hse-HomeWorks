@@ -1,0 +1,26 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    max-height: 108px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.header__nav-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 8px;
+    margin-right: 200px;
+    margin-left: 821px;
+}
+
+.header__logo {
+    min-width: 75px;
+}
+.header__phone {
+    margin: 0;
+    width: 140px;
+    height: 21px;
+}

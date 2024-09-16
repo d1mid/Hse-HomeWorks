@@ -1,0 +1,40 @@
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe__image {
+    margin-right: 136px;
+    min-width: 544px;
+    min-height: 548px;
+}
+
+.subscribe__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 678px;
+}
+
+.subscribe__form-title {
+    margin-bottom: 32px;
+}
+
+.subscribe__form-details {
+    margin-bottom: 72px;
+}
+
+.subscribe__input {
+    margin-bottom: 16px;
+}
+
+.subscribe__button {
+    margin-top: 8px;
+}
+
+.subscribe__icons {
+    display: flex;
+    padding: 0;
+    margin-top: 40px;
+    list-style: none;
+}

@@ -1,0 +1,20 @@
+.app-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.site-footer {
+    margin-top: auto;
+  }
+
+  .content-row {
+    margin: 0 auto;
+    max-width: 1338px;
+    width: 100%;
+  }
+
+  .content-row--spaced {
+    margin-bottom: 120px;
+  }

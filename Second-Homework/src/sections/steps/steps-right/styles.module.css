@@ -1,0 +1,38 @@
+.steps__details-list-item {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 678px;
+    height: 146px;
+    margin-bottom: 24px;
+}
+
+.steps__details-list-item-right {
+    width: 328px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.steps__details-list-item-left{
+    width: 329px;
+    height: 132px;
+}
+
+.steps-part {
+    margin: 0;
+    margin-left: 20px;
+    display: block;
+    width: 329px;
+    height: 132px;
+}
+
+.text-default {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #212529;
+    font-family: 'Roboto';
+    margin: 0;
+}

@@ -1,0 +1,38 @@
+.steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__details-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.steps__details-list-item {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 678px;
+    height: 146px;
+    margin-bottom: 24px;
+}
+
+.steps-part {
+    margin-left: 20px;
+    display: block;
+    width: 329px;
+    height: 132px;
+}
+
+.algo {
+    margin-top: 16px;
+    margin-bottom: 44px;
+}

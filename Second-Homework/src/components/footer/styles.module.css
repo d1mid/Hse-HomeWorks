@@ -1,0 +1,20 @@
+
+.site-footer__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.text-for-link {
+    margin: 0 2px;
+}
+
+.site-footer__socials {
+    display: flex;
+    column-gap: 40px;
+}

@@ -1,0 +1,25 @@
+
+.steps__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__details-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-default {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #212529;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.algo {
+    margin-top: 16px;
+    margin-bottom: 44px;
+}
